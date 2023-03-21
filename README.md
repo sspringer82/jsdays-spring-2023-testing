@@ -16,3 +16,4 @@
   - https://mochajs.org/
     - Assertion library: https://www.chaijs.com/
 - https://testing-library.com/
+- https://github.com/typicode/husky
