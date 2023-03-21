@@ -20,3 +20,4 @@
 - Test doubles
   - https://jestjs.io/docs/mock-functions
   - https://sinonjs.org/
+- https://mswjs.io/
