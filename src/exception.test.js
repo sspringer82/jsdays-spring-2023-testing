@@ -9,7 +9,7 @@ describe('Exception', () => {
     }
   });
 
-  it('should throw an exception (ugly version)', () => {
+  it('should throw an exception (pretty version)', () => {
     const exceptionFunction = () => add('1', 2);
     expect(exceptionFunction).toThrow();
     expect(exceptionFunction).toThrowError('unable to add things')
