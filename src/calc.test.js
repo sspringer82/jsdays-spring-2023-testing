@@ -1,10 +1,11 @@
-const Calculator = require('./calc')
+import { jest } from '@jest/globals';
+import { Calculator } from './calc';
 
 describe('Calculator', () => {
   let calc = null;
 
   beforeEach(() => {
-    console.log('before each Calc');
+    // console.log('before each Calc');
     calc = new Calculator();
   })
 

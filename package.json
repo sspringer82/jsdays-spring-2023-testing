@@ -4,7 +4,7 @@
   "description": "## Wer bin ich?",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,6 @@
   "homepage": "https://github.com/sspringer82/jsdays-spring-2023-testing#readme",
   "dependencies": {
     "jest": "^29.5.0"
-  }
+  },
+  "type": "module"
 }

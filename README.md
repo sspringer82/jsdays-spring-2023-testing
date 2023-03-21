@@ -17,3 +17,6 @@
     - Assertion library: https://www.chaijs.com/
 - https://testing-library.com/
 - https://github.com/typicode/husky
+- Test doubles
+  - https://jestjs.io/docs/mock-functions
+  - https://sinonjs.org/
