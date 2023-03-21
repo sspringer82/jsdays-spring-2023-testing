@@ -4,7 +4,8 @@
   "description": "## Wer bin ich?",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest",
+    "test:coverage": "NODE_OPTIONS=--experimental-vm-modules npx jest --coverage"
   },
   "repository": {
     "type": "git",

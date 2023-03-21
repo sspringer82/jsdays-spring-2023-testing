@@ -5,3 +5,7 @@ export function withCallback(cb) {
 export function createRandomNumber(randomFn, size) {
   return Math.floor(randomFn() * size);
 }
+
+export function uncovered() {
+  console.log('foo');
+}
